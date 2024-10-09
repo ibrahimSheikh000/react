@@ -7,6 +7,8 @@ import LiftingStateUp from '../components/LiftingStateUp'
 import LearnUseState from '../components/LearnUseState'
 import LearnUseEffect from '../components/LearnUseEffect'
 import LearnMemo from '../components/LearnMemo'
+import LearnUseCallback from '../components/LearnUseCallback'
+import Map from '../components/Map'
 
 const App = () => {
   const getData = (data) => {
@@ -23,6 +25,8 @@ const App = () => {
     <LearnUseState/>
     <LearnUseEffect/>
     <LearnMemo/>
+    <LearnUseCallback/>
+    <Map/>
     </>
   )
 }
