@@ -4,6 +4,7 @@ import JsxComponent from '../components/JsxComponent'
 import Props from '../components/Props'
 import Events from '../components/Events'
 import LiftingStateUp from '../components/LiftingStateUp'
+import LearnUseState from '../components/LearnUseState'
 
 const App = () => {
   const getData = (data) => {
@@ -17,6 +18,7 @@ const App = () => {
     <Props name = "Ibrahim" roll = {roll} />    
     <Events/>
     <LiftingStateUp anyname = {getData}/>
+    <LearnUseState/>
     </>
   )
 }
