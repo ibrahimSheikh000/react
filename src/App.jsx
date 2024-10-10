@@ -9,6 +9,9 @@ import LearnUseEffect from '../components/LearnUseEffect'
 import LearnMemo from '../components/LearnMemo'
 import LearnUseCallback from '../components/LearnUseCallback'
 import Map from '../components/Map'
+import learnInlineCss from '../components/learnInlineCss'
+import learnExternalCSS from '../components/learnExternalCSS'
+import learnExternalCSS1 from '../components/learnExternalCSS1'
 
 const App = () => {
   const getData = (data) => {
@@ -27,6 +30,9 @@ const App = () => {
     <LearnMemo/>
     <LearnUseCallback/>
     <Map/>
+    <learnInlineCss/>
+    <learnExternalCSS/>
+    <learnExternalCSS1/>
     </>
   )
 }
